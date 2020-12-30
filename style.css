@@ -1,0 +1,141 @@
+
+
+*{
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+body{
+    background-color: #80808017;
+}
+#h{
+    font-size: larger;
+    text-transform: capitalize;
+    font-size: 29px;
+}
+
+form{
+    display: grid;
+    place-items: center;
+    border: 2px solid #e0d8db;
+    border-radius: 4px;
+}
+input{
+    outline:none;
+    height: 36px;
+    background-color: #8685851c;
+    width: 340px;
+    border-radius: 4px;
+    border: 2px solid #e0d8db;
+}
+#btn{
+    width: 86px;
+    font-size: larger;
+    height: 34px;
+    text-transform: capitalize;
+    border-radius: 4px;
+    border: 2px solid #e0d8db;
+}
+a{
+    text-decoration: none;  
+       color: #1976D2;
+
+}
+#div{
+    background-color: white;
+    width:500px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+ 
+input:focus{
+border: 2px solid rgba(163,222,249,0.3);
+}
+
+
+.modal{
+    width: 442px;
+    height: 235px;;
+    backdrop-filter: blur(15px);
+    box-shadow: 0px 0px 3px #fdfafa;
+    color: white;
+    text-shadow: 0px 2px 4px black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   
+    transform: translate(-50%, -50%);
+}
+#ex{
+    display: flex;
+    padding: 10px;
+    margin-top: -10px;
+    font-size: 22px;
+    justify-content: flex-end;
+    color:white;
+   
+}
+#m1{
+    display: grid;
+    place-items: center;
+   
+}
+h2{
+    text-transform: capitalize;
+    font-size: 42px;
+    margin-top: -17px;
+    
+}
+span{
+    color:#18b4fb;
+    font-size: 42px;
+
+}
+
+
+@media screen and (max-width:520px){
+    #div{
+        width:400px;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
+    .modal{
+        width: 383px;
+        height: 205px;
+    }
+    h2{
+        margin-top: -14px;
+        font-size: 41px;
+        text-transform: capitalize;
+    }
+
+}
+@media screen and (max-width:424px){
+    #div{
+        width:310px;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
+    input{
+        outline:none;
+        height: 36px;
+        background-color: #8685851c;
+        width: 280px;
+        border-radius: 4px;
+        border: 2px solid #e0d8db;
+    }
+    .modal{
+        width: 300px;
+        height: 174px;
+    }
+    h2{
+        font-size: 34px;
+        margin-top: -22px;
+    }
+
+}
