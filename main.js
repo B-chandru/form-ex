@@ -9,7 +9,7 @@ fs.addEventListener("click",()=>{
      event.preventDefault();
     var name =document.getElementById("name");
     document.body.style="opacity:0.6;";
-    document.body.style="  background: #80808017 url(img/bg1.jpg);background-position:center;background-size: cover;background-repeat: no-repeat; background-attachment: fixed; background-clip: content-box;"
+    document.body.style="  background: #80808017 url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg);background-position:center;background-size: cover;background-repeat: no-repeat; background-attachment: fixed; background-clip: content-box;"
     document.body.innerHTML=`<div class="modal">
     <p id="ex">x</p>
     <div id="m1">
